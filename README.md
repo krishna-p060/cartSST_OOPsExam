@@ -24,9 +24,8 @@ We have to provide userId to get all carts of specific user.
 
 ```
 /carts/{userId}
-<img width="1030" alt="getByuser" src="https://github.com/krishna-p060/cartSST_OOPsExam/assets/113329860/7ff9c13d-83e9-450e-bd26-ccf4543deda2">
-
 ```
+![Screenshot](getByuser.png)
 
 ## Get Cart in a date range (Get request)
  
@@ -35,6 +34,8 @@ We get all carts between the given start and end dates, write date in YYYY-MM-DD
 ```
 /carts?start={startDate}&end={endDate}
 ```
+![Screenshot2](dateRange.png)
+
 
 ## Add new Cart (Post request)
 
