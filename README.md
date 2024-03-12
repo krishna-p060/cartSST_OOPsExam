@@ -62,6 +62,7 @@ We delete a single cart of specific cartId we provide through this api endpoint.
 ```
 /carts/{id}
 ```
+![delete](deleteCart.png)
 
 ## MVC Architecture
 
