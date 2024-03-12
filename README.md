@@ -9,6 +9,7 @@ We get all the carts through this api endpoint.
 ```
 /carts
 ```
+![getAll](getAllcart.png)
 
 ## Get A Single Cart (Get request)
 
@@ -17,6 +18,7 @@ We get a single cart of specific cartId we provide through this api endpoint.
 ```
 /carts/{id}
 ```
+![single](getCartId.png)
 
 ## Get Cart by userId (Get request)
 
@@ -44,6 +46,7 @@ Here we can add new Cart to database, in the body of the api we have to pass use
 ```
 /carts
 ```
+![addCart](addCart.png)
 ## Update Cart (Put request)
 
 Here we can update Cart in database, in api we have to pass cartId and in the body of the api we have to pass updated userId, date , array of Products.
@@ -51,7 +54,7 @@ Here we can update Cart in database, in api we have to pass cartId and in the bo
 ```
 /carts/{id}
 ```
-
+![update](updateCart.png)
 ## Delete Cart (Delete request)
 
 We delete a single cart of specific cartId we provide through this api endpoint.
